@@ -2,7 +2,7 @@
     <div>
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <div class="card shadow mx-2">
+                <div class="card shadow">
                     <div class="card-body">
                         <form>
                             <div class="row justify-content-center">

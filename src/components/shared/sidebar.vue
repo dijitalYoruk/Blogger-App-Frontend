@@ -1,5 +1,5 @@
 <template>
-    <div class="card shadow">
+    <div class="card shadow mb-3">
         <div class="card-body">
             <profile-sidebar v-if="showProfile"></profile-sidebar>
             <ul class="list-group list-group-flush">

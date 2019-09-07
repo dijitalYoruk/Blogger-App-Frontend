@@ -1,7 +1,7 @@
 <template>
     <div class="row">
         <div class="col-12">
-            <div class="card shadow mx-2 mb-2 p-3">
+            <div class="card shadow mb-2 p-3">
                 <div class="input-group">
                     <input
                         type="text"

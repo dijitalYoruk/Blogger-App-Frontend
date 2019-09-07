@@ -1,6 +1,6 @@
 <template>
     <div v-if="post_images_count" class="col-12 border-bottom">
-        <div class="offset-1 col-10 offset-1">
+        <div class="offset-md-1 col-md-10 offset-md-1 col-12 p-0">
             <div :id="postSliderId" class="carousel slide my-3" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li
@@ -38,6 +38,18 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-indicators .active{
+    background-color: black;
+}
+
+</style>
 
 <script>
 export default {
